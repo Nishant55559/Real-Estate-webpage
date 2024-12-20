@@ -1,0 +1,55 @@
+.navbar{
+  position: fixed; /* Fixes the navbar to the viewport */
+    width: 100vw;
+    height: 10vh;
+    background-color:#161e27;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;   /* Ensure it stays above other elements */
+    
+}
+
+.casamia{
+    color: white;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 11px;
+}
+
+.navitems{
+
+        list-style: none;
+        display: flex;
+        gap: 4rem;
+        text-decoration: none;
+        margin-right: 530px;
+      
+}
+
+.navitems li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+      
+  }
+  
+  /* Hover effect */
+  .navitems li a:hover {
+    color: #ff9800; /* Orange hover color */
+  }
+
+  .contact{
+    margin-right: 100px;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    border-color:white;
+    color:white;
+    background-color:#161e27;
+    font-weight: bold;
+  }

@@ -1,0 +1,54 @@
+.footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-rights p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .footer-brand {
+    margin-top: 40px;
+  }
+  
+  .footer-logo {
+    font-size: 100px;
+    font-weight: bold;
+    background: url('./seven.jpg') no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  

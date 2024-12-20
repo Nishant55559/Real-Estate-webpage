@@ -1,0 +1,144 @@
+
+.pic1 img {
+    width: 100%;              
+    height: 600px;            /* Fixed height (adjust between 300px - 500px as needed) */
+    object-fit: cover;        /* Crops image to fit dimensions without distortion */
+    display: block;           /* Center the image properly */
+    margin: 0 auto;           /* Center horizontally */
+    border-radius: none 
+    
+}
+.pic{
+  position: relative;
+  height: 600px;
+  width: 100%;
+}
+  
+.elehome{
+  position: absolute; /* Position over the image */
+  top:74%; /* Center vertically */
+  left: 20%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Perfect centering */
+  color: white; /* White text for contrast */
+  font-size: 80px; /* Large font size */
+  font-weight: bold;
+  font-family: 'Helvetica', 'Arial', 'San Francisco', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+  z-index: 1; /* Ensure text appears above the image */
+}
+
+.detail{
+  position: absolute;
+  top: 57%;
+  left: 64%;
+  color: white; /* White text for contrast */
+  font-size: 25px; /* Large font size */
+  font-weight: lighter;
+  font-family: 'Helvetica', 'Arial', 'San Francisco', sans-serif;;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Add shadow for readability */
+  z-index: 1;
+  
+}
+.button1{
+    border-radius: 10px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    left: 85%;
+    z-index: 1;
+    border-color:white;
+    color: white;
+    background-color: transparent;
+}
+
+.button1:hover{
+  background-color: rgba(0, 0, 0, 0.64); /* Slight white background on hover */
+  color: #ffffff; /* Change text color on hover */
+}
+
+.head1{
+  font-weight: bold;
+  padding-left: 120px;
+  padding-top: 60px;
+  font-family: 'Helvetica', 'Arial', 'San Francisco', sans-serif;
+  font-size: 35px;
+  
+}
+
+.modern{
+  font-size: 30px;
+  margin-left: 700px;
+  font-family:  'Helvetica', 'Arial', 'San Francisco', sans-serif;
+  
+}
+
+.pic2 img{
+  margin-left: 60px;
+  height: 50vh;
+  width: 30vw;
+}
+.pic2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 40px;
+  flex-direction: row; /* Arrange children vertically */
+  align-items: center;    /* Center-align content */
+  text-align: center;     /* Center text horizontally */
+  margin: 20px
+}
+
+.info1{
+  padding-left: 90px;
+  padding-bottom: 230px;
+  font-size:20px;
+}
+
+.info2{
+  
+  font-size: 15px;
+}
+
+.head2{
+  font-weight: bold;
+  padding-left: 160px;
+  font-family: 'Helvetica', 'Arial', 'San Francisco', sans-serif;
+  font-size: 35px;
+  padding-bottom: 10px;
+  
+}
+
+/* Parent Container for all Images */
+.image-container {
+  display: flex;               /* Align images side by side */
+  justify-content: space-evenly; /* Even spacing between images */
+  align-items: center;         /* Center align vertically */
+  gap: 20px;                   /* Space between images */
+  padding: 20px;               /* Add padding around the container */
+  flex-wrap: wrap;             /* Allow wrapping if the screen is small */
+}
+
+/* Each Image Box (Image + Heading) */
+.image-box {
+  text-align: center;          /* Center the heading below the image */
+}
+
+/* Images Styling */
+.image-box img {
+  width: 300px;                /* Fixed width for images */
+  height: 200px;               /* Fixed height for images */
+  object-fit: cover;           /* Ensure images are not distorted */
+  border-radius: 10px;         /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow */
+}
+
+/* Headings Styling */
+.image-box h3 {
+  margin-top: 10px;            /* Space between image and heading */
+  font-size: 18px;
+  color: #fff;                 /* Change text color as needed */
+  font-family: Arial, sans-serif;
+}

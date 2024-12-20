@@ -1,0 +1,63 @@
+/* Container styling */
+.faq-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Left section styling */
+  .faq-left {
+    width: 40%;
+  }
+  
+  .faq-left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-left h3 {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .house-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px;
+  }
+  
+  .faq-left p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  /* Right section styling */
+  .faq-right {
+    width: 55%;
+  }
+  
+  .faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 30px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .faq-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  

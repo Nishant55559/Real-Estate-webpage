@@ -1,0 +1,18 @@
+.vision-mission-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    background-color: #0c0e14;
+    color: white;
+  }
+  
+  .vision, .mission {
+    flex: 1;
+    margin: 0 1rem;
+    text-align: center;
+  }
+  
+  .vision h2, .mission h2 {
+    margin-bottom: 1rem;
+  }
+  

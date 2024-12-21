@@ -5,13 +5,15 @@ import Menu from './components/menu bar/menu';
 import FAQ from './components/faq/faq';
 import Footer from './components/footer/footer';
 import ContactUs from './components/contact us/contact';
+import AboutUs from './components/about/about';
 
 function App() {
   return (
     
       <div>
         
-        <Home/>
+        <Menu/>
+        <AboutUs/>
         
         
       </div>

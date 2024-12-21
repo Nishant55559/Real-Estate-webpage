@@ -1,6 +1,6 @@
 
 import './about_head.css';
-import about from './about.jpeg'
+import about from './about.jpg'
 
 function Header() {
   return (

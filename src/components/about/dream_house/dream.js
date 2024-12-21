@@ -1,6 +1,6 @@
 
 import './dream.css';
-import Stair from './Stair.jpeg'
+import Stairs from './Stairs.jpg'
 
 function DreamHome(){
   return (

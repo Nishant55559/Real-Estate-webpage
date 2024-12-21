@@ -1,6 +1,6 @@
 .dream-home-container {
     padding: 6rem 2rem;
-    background: url('Stair.jpeg') center center/cover no-repeat;
+    background: url('Stairs.jpg') center center/cover no-repeat;
     color: white;
     text-align: center;
   }
@@ -14,7 +14,7 @@
   
   .dream-home-content button {
     margin-top: 1rem;
-    background-color: #b19777;
+    background-color: #dc8418;
     color: white;
     padding: 0.5rem 1rem;
     border: none;

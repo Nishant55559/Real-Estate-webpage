@@ -5,24 +5,43 @@ import about2 from './about2.jpeg'
 
 function About_cm(){
   return (
-    <div className="about-mansion-container">
-      <div className="about-mansion-content">
+    <div className="container">
+      <div className="about-section">
         <div className="about-text">
-          <h2>About Mansion</h2>
+          <h2>About CASA MIA</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            ac nisi vel libero cursus vulputate...
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper luctus, lacus ex consequat ipsum, ultricies interdum ex ante sit amet tellus. Quisque faucibus iaculis quam a aliquet.
           </p>
-          <ul>
-            <li>Feature 1</li>
-            <li>Feature 2</li>
-            <li>Feature 3</li>
+          <ul className="features-list">
+            <div>
+              <li>Phasellus rutrum</li>
+              <li>Donec at quam</li>
+              <li>Phasellus tristique</li>
+              <li>Quisque rhoncus</li>
+            </div>
+            <div>
+              <li>Phasellus rutrum</li>
+              <li>Donec at quam</li>
+              <li>Phasellus tristique</li>
+              <li>Quisque rhoncus</li>
+            </div>
           </ul>
-          <button>View More</button>
+          <button className="cta-button">Get Started</button>
         </div>
-        <div className="about-images">
-          <img src={about1} alt="Room 1" />
-          <img src={about2} alt="Room 2" />
+        <div className="image-slider">
+          <div className="image-container">
+            <img
+              src={about1} 
+              alt="Room 1"
+              className="image"
+            />
+            <img
+              src={about2} 
+              alt="Room 2"
+              className="image"
+            />
+          </div>
+          <div className="slider-button">&#9654;</div>
         </div>
       </div>
     </div>

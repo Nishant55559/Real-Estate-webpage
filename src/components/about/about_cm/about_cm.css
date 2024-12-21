@@ -25,7 +25,7 @@ body {
   
   h2 {
     font-size: 2.5rem;
-    margin-bottom: 1rem;
+    margin-top: 150px;
     margin-left: 50px;
   }
   
@@ -95,3 +95,36 @@ body {
     color: #d4af37;
   }
   
+  
+
+/* Statistics Section */
+.stats-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.stat {
+  text-align: center;
+  color: #fff;
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.stat h3 span {
+  font-size: 1.5rem;
+  color: #d4af37;
+  margin-left: 0.2rem;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #aaa;
+}

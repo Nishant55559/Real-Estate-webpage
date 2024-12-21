@@ -2,19 +2,46 @@
 import './vision.css';
 import vision from './vision.jpeg'
 
-function VisionMission(){
+function VisionMission() {
   return (
     <div className="vision-mission-container">
-      <div className="vision">
-        <h2>Vision</h2>
-        <p>Lorem ipsum dolor sit amet...</p>
+      <h2 className="section-title">Vision & Mission</h2>
+      <div className="content">
+        <div className="image-container">
+          <img src={vision} alt="Vision and Mission" />
+        </div>
+        <div className="text-section">
+          <div className="text-block">
+            <h3>Vision</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper luctus, lacus ex consequat ipsum, ultricies interdum ex ante sit amet tellus.
+            </p>
+            <ul>
+              <li>Phasellus rutrum</li>
+              <li>Donec at quam</li>
+              <li>Phasellus tristique</li>
+              <li>Quisque rhoncus</li>
+            </ul>
+          </div>
+          <div className="text-block">
+            <h3>Mission</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper luctus, lacus ex consequat ipsum, ultricies interdum ex ante sit amet tellus.
+            </p>
+            <ul>
+              <li>Phasellus rutrum</li>
+              <li>Donec at quam</li>
+              <li>Phasellus tristique</li>
+              <li>Quisque rhoncus</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div className="mission">
-        <h2>Mission</h2>
-        <p>Lorem ipsum dolor sit amet...</p>
-      </div>
+      <button className="discover-button">Discover More</button>
     </div>
   );
 }
 
 export default VisionMission;
+
+

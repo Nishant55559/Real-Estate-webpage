@@ -70,18 +70,18 @@ function Home() {
 
             {/* 3 images side by side in rows*/}
 
-            <div className="image-container">  
-                <div className="image-box">
+            <div className="imgcon">  
+                <div className="imgbox">
                     <img src={fourth} alt="First Room" />
                     <h3>Spacious Living Room</h3>
                 </div>
 
-                <div className="image-box">
+                <div className="imgbox">
                     <img src={fifth} alt="Second Room" />
                     <h3>Elegant Bedroom</h3>
                 </div>
 
-                <div className="image-box">
+                <div className="imgbox">
                     <img src={sixth} alt="Third Room" />
                     <h3>Modern Kitchen</h3>
                 </div>

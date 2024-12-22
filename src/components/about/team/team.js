@@ -1,5 +1,9 @@
 import './team.css';
 import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
+import adam from './adam.jpeg'
+import Megamind from './𝗠𝗲𝗴𝗮𝗺𝗶𝗻𝗱.jpeg'
+import pussy from './pussy.jpeg'
+import gru from './gru.jpeg'
 
     function TeamSection(){
   return (
@@ -10,9 +14,9 @@ import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
           </p>
           <div className="team-cards">
             <div className="team-card">
-              <img src="/path/to/image1.jpg" alt="Sarah Jhon" className="team-image" />
-              <h3 className="team-name">Sarah Jhon</h3>
-              <p className="team-role">Mansion Team</p>
+              <img src={adam} alt="Rajbir" className="team-image" />
+              <h3 className="team-name">Rajbir</h3>
+              <p className="team-role">CASA MIA Team</p>
               <div className="social-icons">
                 <a href="#" className="icon"><FaLinkedin size={24} /></a>
                 <a href="#" className="icon"><FaInstagram size={24} /></a>
@@ -20,9 +24,9 @@ import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
               </div>
             </div>
             <div className="team-card">
-              <img src="/path/to/image2.jpg" alt="Mike Morales" className="team-image" />
-              <h3 className="team-name">Mike Morales</h3>
-              <p className="team-role">Mansion Team</p>
+              <img src={pussy} alt="gary" className="team-image" />
+              <h3 className="team-name">Gary</h3>
+              <p className="team-role">CASA MIA Team</p>
               <div className="social-icons">
                 <a href="#" className="icon"><FaLinkedin size={24} /></a>
                 <a href="#" className="icon"><FaInstagram size={24} /></a>
@@ -30,9 +34,9 @@ import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
               </div>
             </div>
             <div className="team-card">
-              <img src="/path/to/image3.jpg" alt="Steve Irwin" className="team-image" />
-              <h3 className="team-name">Steve Irwin</h3>
-              <p className="team-role">Mansion Team</p>
+              <img src={Megamind} alt="nishant" className="team-image" />
+              <h3 className="team-name">Nishant</h3>
+              <p className="team-role">CASA MIA Team</p>
               <div className="social-icons">
                 <a href="#" className="icon"><FaLinkedin size={24} /></a>
                 <a href="#" className="icon"><FaInstagram size={24} /></a>
@@ -40,9 +44,9 @@ import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
               </div>
             </div>
             <div className="team-card">
-              <img src="/path/to/image4.jpg" alt="Manda Jean" className="team-image" />
-              <h3 className="team-name">Manda Jean</h3>
-              <p className="team-role">Mansion Team</p>
+              <img src={gru} alt="apoorv" className="team-image" />
+              <h3 className="team-name">Apoorv</h3>
+              <p className="team-role">CASA MIA Team</p>
               <div className="social-icons">
                 <a href="#" className="icon"><FaLinkedin size={24} /></a>
                 <a href="#" className="icon"><FaInstagram size={24} /></a>

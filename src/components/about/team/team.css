@@ -10,9 +10,6 @@
     margin-bottom: 10px;
   }
   
- 
-
-
   
   .team-cards {
     display: flex;
@@ -47,6 +44,7 @@
     font-size: 0.9rem;
     margin-bottom: 15px;
     color: #9aa0ac;
+    margin-right: 50px;
   }
   
   .social-icons {

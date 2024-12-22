@@ -14,7 +14,7 @@ function WhyChooseUs() {
           <div className="grid-item highlighted">
             <div className="icon">☁️</div>
             <h3>Comfortable</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p style={{color:"black"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <div className="grid-item">
             <div className="icon">👍</div>

@@ -16,7 +16,7 @@
   
 .elehome{
   position: absolute; /* Position over the image */
-  top:74%; /* Center vertically */
+  top:70%; /* Center vertically */
   left: 20%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Perfect centering */
   color: white; /* White text for contrast */
@@ -112,7 +112,7 @@
 }
 
 /* Parent Container for all Images */
-.image-container {
+.imgcon {
   display: flex;               /* Align images side by side */
   justify-content: space-evenly; /* Even spacing between images */
   align-items: center;         /* Center align vertically */
@@ -122,12 +122,12 @@
 }
 
 /* Each Image Box (Image + Heading) */
-.image-box {
+.imgbox {
   text-align: center;          /* Center the heading below the image */
 }
 
 /* Images Styling */
-.image-box img {
+.imgbox img {
   width: 300px;                /* Fixed width for images */
   height: 200px;               /* Fixed height for images */
   object-fit: cover;           /* Ensure images are not distorted */
@@ -136,7 +136,7 @@
 }
 
 /* Headings Styling */
-.image-box h3 {
+.imgbox h3 {
   margin-top: 10px;            /* Space between image and heading */
   font-size: 18px;
   color: #fff;                 /* Change text color as needed */

@@ -29,16 +29,16 @@ function About_cm(){
           <button className="cta-button">Get Started</button>
         </div>
         <div className="image-slider">
-          <div className="image-container">
+          <div className="image-c">
             <img
               src={about1} 
               alt="Room 1"
-              className="image"
+              className="img"
             />
             <img
               src={about2} 
               alt="Room 2"
-              className="image"
+              className="img"
             />
           </div>
           <div className="slider-button">&#9654;</div>

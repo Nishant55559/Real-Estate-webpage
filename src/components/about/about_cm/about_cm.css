@@ -74,16 +74,16 @@ body {
     align-items: center;
   }
   
-  .image-container {
+  .image-c{
     display: flex;
     gap: 1rem;
     overflow: hidden;
   }
   
-  .image {
+  .img {
     border-radius: 10px;
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 600px;
     object-fit: cover;
   }
   

@@ -62,7 +62,7 @@
   .text-section h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   
   .text-section p {
@@ -80,6 +80,8 @@
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    margin-left: 55px;
+    margin-bottom: 50px;
   }
   
   .discover-button:hover {

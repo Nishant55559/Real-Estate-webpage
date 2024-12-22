@@ -12,9 +12,7 @@ function App() {
     
       <div>
         
-        <Menu/>
-        <AboutUs/>
-        
+    <AboutUs/>
         
       </div>
     

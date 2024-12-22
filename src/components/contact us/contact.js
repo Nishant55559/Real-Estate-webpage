@@ -1,6 +1,8 @@
 
 import "./contact.css";
 import Back from './Back.jpg'
+import Menu from "../menu bar/menu";
+import Footer from "../footer/footer";
 
 
 function ContactUs() {
@@ -8,6 +10,7 @@ function ContactUs() {
 
     <div className="contact-us">
       {/* Hero Section */}
+      <Menu/>
       <div className="contact-hero">
         <div className="contact-overlay">
           <h1>Contact Us</h1>
@@ -70,6 +73,7 @@ function ContactUs() {
           <a href="#linkedin">LinkedIn</a>
         </div>
       </footer>
+      <Footer/>
     </div>
   );
 }

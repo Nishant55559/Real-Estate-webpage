@@ -59,59 +59,60 @@
   color: #ffffff; /* Change text color on hover */
 }
 
-.head1{
-  font-weight: bold;
-  padding-left: 120px;
-  padding-top: 60px;
-  font-family: 'Helvetica', 'Arial', 'San Francisco', sans-serif;
-  font-size: 35px;
-  
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
 }
 
-.modern{
-  font-size: 30px;
-  margin-left: 700px;
-  font-family:  'Helvetica', 'Arial', 'San Francisco', sans-serif;
-  
+.head1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 20px 0;
 }
 
-.pic2 img{
-  margin-left: 60px;
-  height: 50vh;
-  width: 30vw;
-}
-.pic2{
+.pic2 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding-left: 40px;
-  flex-direction: row; /* Arrange children vertically */
-  align-items: center;    /* Center-align content */
-  text-align: center;     /* Center text horizontally */
-  margin: 20px
+  padding: 20px;
 }
 
-.info1{
-  padding-left: 90px;
-  padding-bottom: 230px;
-  font-size:20px;
+.image-large {
+  width: 40vw;
+  height: 60vh;
+  border-radius: 8px;
 }
 
-.info2{
-  
-  font-size: 15px;
+.info1 {
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 80%;
+  line-height: 1.5;
 }
 
-.head2{
-  font-weight: bold;
-  padding-left: 160px;
-  font-family: 'Helvetica', 'Arial', 'San Francisco', sans-serif;
-  font-size: 35px;
-  padding-bottom: 10px;
-  
+.image-small {
+  height: 30vh;
+  width: 20vw;
+  object-fit: cover;
+  border-radius: 8px;
 }
+
+.info2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-right: 75px;
+}
+
+  .head2{
+    margin-left: 190px;
+  }
 
 /* Parent Container for all Images */
+
 .imgcon {
   display: flex;               /* Align images side by side */
   justify-content: space-evenly; /* Even spacing between images */

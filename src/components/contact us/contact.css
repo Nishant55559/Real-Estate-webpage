@@ -62,7 +62,8 @@
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
-    background-color: #fff;
+    background-color: #000000;
+    color: aliceblue;
   }
   
   .info-card {

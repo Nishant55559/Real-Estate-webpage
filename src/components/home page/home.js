@@ -42,25 +42,23 @@ function Home() {
             </div>
 
 
-            <div>
-                <h2 className="head1">
-                    Hilight Rooms
-                </h2>
-            </div>
+        <div>
+      <h2 className="head1">Hilight Rooms</h2>
+      <div className="pic2">
+        <img src={second} alt="Living Room" className="image-large" />
+        <p className="info1">
+          The living room has an open concept with a luxury theme, measuring 8m x 6m. Designed to
+          create a spacious, elegant, and comfortable<br />
+          atmosphere.
+        </p>
+        <img src={third} alt="Minimalist Design" className="image-small" />
+        <p className="info2">Minimalist open space and elegant design.</p>
+      </div>
+      </div>
 
-            <div className='pic2'>
-                <img src={second} alt="Home1" />
-                <p className='info1'>The living room has open concept with
-                    a luxury theme, measuring 8m X 6m. Designed to
-                    create a spacious, elegant and comfortable<br />
-                    atmosphere.</p>
-
-                <p className='info2'>Minimalist open space and elegant design.</p>
-
-                <img src={third} alt="Home2" style={{ height: "30vh", width: "20vw", display: "flex" }} />
-
+                                
                                  {/* Gallery*/}
-            </div>
+            
 
             <div>
                 <h2 className="head2">

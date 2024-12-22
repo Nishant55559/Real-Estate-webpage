@@ -1,7 +1,7 @@
 import './home.css';
 import first from './first.jpg'
-import second from './second.jpeg'
-import third from './third.jpeg'
+import second from './second.jpg'
+import third from './third.jpg'
 import fourth from './fourth.jpeg'
 import fifth from './fifth.jpeg'
 import sixth from './sixth.jpeg'

@@ -3,6 +3,7 @@ import "./contact.css";
 import Back from './Back.jpg'
 import Menu from "../menu bar/menu";
 import Footer from "../footer/footer";
+import Contact_head from "./contact_head";
 
 
 function ContactUs() {
@@ -11,6 +12,8 @@ function ContactUs() {
     <div className="contact-us">
       {/* Hero Section */}
       <Menu/>
+      <Contact_head/>
+      
       <div className="contact-hero">
         <div className="contact-overlay">
           <h1>Contact Us</h1>

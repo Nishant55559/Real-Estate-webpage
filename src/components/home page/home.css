@@ -95,8 +95,8 @@ body {
 }
 
 .image-small {
-  height: 30vh;
-  width: 20vw;
+  height: 50vh;
+  width: 35vw;
   object-fit: cover;
   border-radius: 8px;
 }

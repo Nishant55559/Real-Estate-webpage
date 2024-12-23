@@ -6,13 +6,14 @@ import FAQ from './components/faq/faq';
 import Footer from './components/footer/footer';
 import ContactUs from './components/contact us/contact';
 import AboutUs from './components/about/about';
+import Agents from './components/agents/agent';
 
 function App() {
   return (
     
       <div>
-        
-    <Home/>
+    
+    <Agents/>
         
       </div>
     

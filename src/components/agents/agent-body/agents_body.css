@@ -1,0 +1,50 @@
+.agents-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Exactly 4 cards per row */
+    gap: 50px;
+    
+    margin-left: 6cm; /* 6 cm gap from left */
+    margin-right: 6cm; /* 6 cm gap from right */
+  }
+  
+  .agent-card {
+    margin-top: 100px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .agent-image-container {
+    overflow: hidden;
+  }
+  
+  .agent-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .agent-card:hover .agent-image {
+    transform: scale(1.1);
+  }
+  
+  .agent-info {
+    padding: 15px;
+  }
+  
+  .agent-info h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .agent-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  

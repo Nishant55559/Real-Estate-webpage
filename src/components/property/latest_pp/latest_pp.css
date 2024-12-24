@@ -1,0 +1,106 @@
+.properties-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 50px;
+    padding: 80px;
+    margin-left: 90px; 
+    margin-right: 90px;
+  }
+  
+  .property-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .property-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .property-image-container {
+    overflow: hidden; /* Ensures the zoom effect does not extend outside the card */
+  }
+  
+  .property-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+  }
+  
+  .property-card:hover .property-image {
+    transform: scale(1.1); /* Zooms in the image slightly */
+  }
+  
+  .property-details {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .property-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+  }
+  
+  .current-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .property-meta {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .property-meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .property-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 10px 0 5px;
+  }
+  
+  .property-location {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .property-link {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: #080808;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .property-link:hover {
+    background: #d43e91;
+  }
+  

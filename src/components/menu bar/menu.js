@@ -11,7 +11,7 @@ function Menu(){
           <li className='about'><a href="#about">About</a></li>
           <li className='highlight'><a href="#highlight">Hilight</a></li>
           <li className='gallery'><a href="#agents">Agents</a></li>
-          <li className='faq'><a href="#properties">Property</a></li>
+          <li className='faq'><a href="#properties">Properties</a></li>
         </ul>
         <button className='contact'>Contact</button>
       </nav>

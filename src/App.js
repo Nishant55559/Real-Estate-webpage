@@ -7,13 +7,14 @@ import Footer from './components/footer/footer';
 import ContactUs from './components/contact us/contact';
 import AboutUs from './components/about/about';
 import Agents from './components/agents/agent';
+import Property from './components/property/property';
 
 function App() {
   return (
     
       <div>
     
-    <Agents/>
+    <Property/>
         
       </div>
     

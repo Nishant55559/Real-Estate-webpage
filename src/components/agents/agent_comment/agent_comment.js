@@ -1,6 +1,6 @@
 import './agent_comment.css';
-import pc134 from './pc134.jpg'
-import pc144 from './pc144.jpg'
+import pc134 from './pc134.jpeg'
+import pc144 from './pc144.jpeg'
 
 const comments = [
     {

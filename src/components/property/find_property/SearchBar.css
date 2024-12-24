@@ -1,0 +1,73 @@
+.search-bar {
+    background-color: #1012126e;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding-top: 90px;
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tabs button.active {
+    background-color: #f68504;
+    color: #fff;
+  }
+  
+  .tabs button:hover {
+    background-color: #f68504;
+    color: #fff;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .form input,
+  .form select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form .submit {
+    grid-column: span 3;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    padding-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.2s; 
+    margin-top: 10px; 
+    border: 1px solid #fff;
+  }
+  
+  .form .submit:hover {
+    background-color: #444;
+  }
+  

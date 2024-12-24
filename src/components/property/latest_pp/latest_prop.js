@@ -117,6 +117,7 @@ const properties = [
     function Latest_Property(){
     return (
       <div className="properties-container">
+        
         {properties.map((property) => (
           <div key={property.id} className="property-card">
             <img src={property.image} alt={property.title} className="property-image" />

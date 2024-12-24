@@ -2,7 +2,7 @@
   position: fixed; /* Fixes the navbar to the viewport */
     width: 100vw;
     height: 10vh;
-    background-color:#161e27;
+    background-color:black;
     display: flex;
     align-items: center;
     justify-content: center;

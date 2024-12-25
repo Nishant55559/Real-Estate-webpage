@@ -62,10 +62,10 @@ const properties = [
       image: prop5,
       price: "Rs 3,050/month",
       oldPrice: "8,000",
-      beds: 3,
-      baths: 2,
+      beds: 1,
+      baths: 1,
       sqft: "1,878 sqft",
-      title: "Emerald Grove Estate",
+      title: "Emerald Estate",
       location: "DownTown",
     },
     {
@@ -98,7 +98,7 @@ const properties = [
         beds: 3,
         baths: 2,
         sqft: "1,878 sqft",
-        title: "Crystal Waters Abode",
+        title: "Crystal Waters",
         location: "Brisbane",
       },
       {
@@ -109,7 +109,7 @@ const properties = [
         beds: 3,
         baths: 2,
         sqft: "1,878 sqft",
-        title: "Crystal Waters Abode",
+        title: "Crystal Abode",
         location: "Brisbane",
       },
   ];

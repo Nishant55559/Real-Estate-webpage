@@ -8,13 +8,14 @@ import ContactUs from './components/contact us/contact';
 import AboutUs from './components/about/about';
 import Agents from './components/agents/agent';
 import Property from './components/property/property';
+import Blogs from './components/blogs/blog';
 
 function App() {
   return (
     
       <div>
     
-    <Property/>
+    < Blogs/>
         
       </div>
     

@@ -17,7 +17,7 @@
   }
   
   .blog-card {
-    background-color: white;
+    
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
@@ -41,7 +41,7 @@
   .blog-title {
     font-size: 18px;
     margin: 15px 10px;
-    color: black;
+    color: rgb(255, 255, 255);
     transition: color 0.3s ease;
     cursor: pointer;
   }

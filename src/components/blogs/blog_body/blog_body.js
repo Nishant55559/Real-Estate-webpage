@@ -1,9 +1,10 @@
 import './blog_body.css';
-
-
-
-
-
+import b1 from './b1.jpg'
+import b2 from './b2.jpg'
+import b3 from './b3.jpg'
+import b4 from './b4.jpg'
+import b5 from './b5.jpg'
+import b6 from './b6.jpg'
 
 const blogs = [
     {
@@ -12,7 +13,7 @@ const blogs = [
       date: 'July 24, 2019',
       author: 'Admin',
       comments: 3,
-      image: 'https://via.placeholder.com/300', // Replace with actual image URLs
+      image: b1, 
       description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
     },
     {
@@ -21,7 +22,7 @@ const blogs = [
       date: 'July 24, 2019',
       author: 'Admin',
       comments: 3,
-      image: 'https://via.placeholder.com/300',
+      image: b2,
       description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
     },
     {
@@ -30,7 +31,7 @@ const blogs = [
       date: 'July 24, 2019',
       author: 'Admin',
       comments: 3,
-      image: 'https://via.placeholder.com/300',
+      image: b3,
       description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
     },
     {
@@ -39,7 +40,7 @@ const blogs = [
           date: 'July 24, 2019',
           author: 'Admin',
           comments: 3,
-          image: 'https://via.placeholder.com/300', // Replace with actual image URLs
+          image: b4, // Replace with actual image URLs
           description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
         },
         {
@@ -48,7 +49,7 @@ const blogs = [
           date: 'July 24, 2019',
           author: 'Admin',
           comments: 3,
-          image: 'https://via.placeholder.com/300',
+          image: b5,
           description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
         },
         {
@@ -57,7 +58,7 @@ const blogs = [
           date: 'July 24, 2019',
           author: 'Admin',
           comments: 3,
-          image: 'https://via.placeholder.com/300',
+          image: b6,
           description: 'A small river named Duden flows by their place and supplies it with the necessary regelialia.'
         }
       

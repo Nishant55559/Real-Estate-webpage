@@ -1,91 +1,70 @@
-/* BlogReply.css */
+.comment-section {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-.blog-reply-container {
-    max-width: 800px;
-    margin: 0 20px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 80px;
+  color: #333;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.comment:last-child {
+  border-bottom: none;
+}
+
+.commenter-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.comment-content {
+  flex: 1;
+}
+
+.comment-content h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.comment-content span {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.comment-content p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.reply-button {
+  background-color: transparent;
+  color: #555;
+  border: 1px solid #ccc;
+  padding: 15px 30px;
+  font-size: 9rem;
+  border-radius: 5px;
+  cursor: pointer;
   
-  .author-section {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-  }
   
-  .author-image {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
+}
+
+.reply-button:hover {
+  background-color: #f0f0f0;
   
-  .author-details h3 {
-    margin: 0;
-    font-size: 20px;
-    color: #333;
-  }
-  
-  .author-details p {
-    margin-top: 8px;
-    font-size: 16px;
-    color: #666;
-    line-height: 1.5;
-  }
-  
-  .comments-section h4 {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .comment {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
-  }
-  
-  .commenter-image {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 15px;
-  }
-  
-  .comment-details h5 {
-    margin: 0;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .comment-details span {
-    font-size: 14px;
-    color: #999;
-    display: block;
-    margin-top: 4px;
-  }
-  
-  .comment-details p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
-    margin: 10px 0;
-  }
-  
-  .reply-button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 5px 10px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .reply-button:hover {
-    background-color: #0056b3;
-  }
-  
+}

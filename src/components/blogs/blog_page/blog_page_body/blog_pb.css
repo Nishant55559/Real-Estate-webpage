@@ -19,7 +19,7 @@ body {
   .sidebar-section {
     width: 25%;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #000000;
     border-right: 1px solid #ddd;
   }
   
@@ -35,7 +35,7 @@ body {
   .sidebar-section h3 {
     margin-top: 20px;
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
   }
   
   .sidebar-section ul {

@@ -1,86 +1,39 @@
 import './blog_reply';
+import { FaUserCircle } from "react-icons/fa";
+
+
+const comments = [
+  {
+    name: "Jacob Smith",
+    date: "January 9, 2018 at 2:21PM",
+    text: "When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.",
+  },
+  {
+    name: "Chris Meyer",
+    date: "January 9, 2018 at 2:21PM",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?",
+  },
+];
 
 function Blog_reply(){
-    return (
-        <div className="blog-reply-container">
-          <div className="author-section">
-            <img
-              className="author-image"
-              src="https://via.placeholder.com/100"
-              alt="Author"
-            />
-            <div className="author-details">
-              <h3>George Washington</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ducimus
-                itaque, autem necessitatibus voluptate quod mollitia delectus aut,
-                sunt placeat nam vero culpa sapiente consectetur similique, inventore
-                eos fugit cupiditate numquam!
-              </p>
-            </div>
+  return (
+    <div className="comment-section">
+      <h3>Comments</h3>
+      {comments.map((comment, index) => (
+        <div className="comment" key={index}>
+          <div className="commenter-icon">
+            <FaUserCircle size={50} color="#555" />
           </div>
-    
-          <div className="comments-section">
-            <h4>6 Comments</h4>
-            <div className="comment">
-              <img
-                className="commenter-image"
-                src="https://via.placeholder.com/50"
-                alt="Commenter"
-              />
-              <div className="comment-details">
-                <h5>John Doe</h5>
-                <span>October 03, 2018 at 2:21 PM</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pariatur
-                  quidem laborum necessitatibus, ipsam impedit vitae autem, eum
-                  officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum
-                  impedit necessitatibus, nihil?
-                </p>
-                <button className="reply-button">Reply</button>
-              </div>
-            </div>
-    
-            <div className="comment">
-              <img
-                className="commenter-image"
-                src="https://via.placeholder.com/50"
-                alt="Commenter"
-              />
-              <div className="comment-details">
-                <h5>John Doe</h5>
-                <span>October 03, 2018 at 2:21 PM</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pariatur
-                  quidem laborum necessitatibus, ipsam impedit vitae autem, eum
-                  officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum
-                  impedit necessitatibus, nihil?
-                </p>
-                <button className="reply-button">Reply</button>
-              </div>
-            </div>
-    
-            <div className="comment">
-              <img
-                className="commenter-image"
-                src="https://via.placeholder.com/50"
-                alt="Commenter"
-              />
-              <div className="comment-details">
-                <h5>John Doe</h5>
-                <span>October 03, 2018 at 2:21 PM</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pariatur
-                  quidem laborum necessitatibus, ipsam impedit vitae autem, eum
-                  officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum
-                  impedit necessitatibus, nihil?
-                </p>
-                <button className="reply-button">Reply</button>
-              </div>
-            </div>
+          <div className="comment-content">
+            <h4>{comment.name}</h4>
+            <span>{comment.date}</span>
+            <p>{comment.text}</p>
+            <button className="reply-button">REPLY</button>
           </div>
         </div>
-      )
+      ))}
+    </div>
+  );
 };
 
 export default Blog_reply;

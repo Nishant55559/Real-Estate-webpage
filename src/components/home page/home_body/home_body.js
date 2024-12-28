@@ -1,13 +1,17 @@
 import './home_body.css';
 import first from './first.jpg'
 import second from './second.jpg'
-import third from './third.jpg'
 import fourth from './fourth.jpeg'
 import fifth from './fifth.jpeg'
 import sixth from './sixth.jpeg'
+import Service from '../service/service';
+import Latest_Property from '../../property/latest_pp/latest_prop';
+import { properties } from '../../property/latest_pp/latest_prop';
 
 
 function Home_body() {
+
+    const slicedproperty = properties.slice(0, 3);
 
     return (
         <div >
@@ -31,15 +35,10 @@ function Home_body() {
                 <button className='button1'>Contact</button>
             </div>
 
-            <div>
-                <p className="modern">
-                    <b>A modern house with elegant design, land area 150m sq,<br />
-                        length 100m.</b> Has 6 bedrooms, 3 bathrooms, and a<br />
-                    luxurious swimming pool.
-                </p>
-            </div>
-
-
+            <Service/>
+            <div style={{ height: "120px" }}></div>
+            <div><h1 style={{textAlign: "center"}}>Exclusive Offer For You</h1></div>
+            <Latest_Property propertiesData={slicedproperty}/>
         <div>
       <h2 className="head1">Hilight Rooms</h2>
       <div className="pic2">

@@ -12,7 +12,7 @@ import prop7 from './prop7.jpg'
 import prop8 from './prop8.jpg'
 import prop9 from './prop9.jpg'
 
-const properties = [
+export const properties = [
     {
       id: 1,
       image: prop1,
@@ -114,11 +114,11 @@ const properties = [
       },
   ];
 
-    function Latest_Property(){
+    function Latest_Property({ propertiesData }){
     return (
       <div className="properties-container">
         
-        {properties.map((property) => (
+        {propertiesData.map((property) => (
           <div key={property.id} className="property-card">
             <img src={property.image} alt={property.title} className="property-image" />
             <div className="property-details">

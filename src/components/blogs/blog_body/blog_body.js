@@ -6,7 +6,7 @@ import b4 from './b4.jpg'
 import b5 from './b5.jpg'
 import b6 from './b6.jpg'
 
-const blogs = [
+export const blogs = [
     {
       id: 1,
       title: 'Why Lead Generation is Key for Business Growth',
@@ -65,10 +65,10 @@ const blogs = [
   ];
 
 
-function Blog_body(){
+function Blog_body({ blogsData }){
     return (
         <div className="blog-container">
-          {blogs.map(blog => (
+          {blogsData.map(blog => (
             <div key={blog.id} className="blog-card">
               <div className="blog-image-wrapper">
                 <img src={blog.image} alt={blog.title} className="blog-image" />

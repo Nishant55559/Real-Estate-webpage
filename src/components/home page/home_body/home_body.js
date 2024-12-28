@@ -49,8 +49,7 @@ function Home_body() {
           create a spacious, elegant, and comfortable<br />
           atmosphere.
         </p>
-        <img src={third} alt="Minimalist Design" className="image-small" />
-        <p className="info2">Minimalist open space and elegant design.</p>
+        
       </div>
       </div>
 

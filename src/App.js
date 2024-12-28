@@ -9,7 +9,7 @@ import AboutUs from './components/about/about';
 import Agents from './components/agents/agent';
 import Property from './components/property/property';
 import Blogs from './components/blogs/blog';
-import Blog_page from './components/blogs/blog_page/blog_page';
+
 
 function App() {
   return (

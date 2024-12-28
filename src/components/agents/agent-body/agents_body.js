@@ -12,7 +12,7 @@ import pc104 from './pc104.jpeg'
 import pc114 from './pc114.jpeg'
 import pc124 from './pc124.jpeg'
 
-const agents = [
+export const agents = [
     { name: "James Stallon", img: pc14 },
     { name: "Emily Brown", img: pc24 },
     { name: "Michael Scott", img: pc34 },
@@ -28,11 +28,11 @@ const agents = [
     
   ];
   
-function Agents_body(){
+function Agents_body({ agentsData }){
     return (
         <div className="agents-container">
           
-          {agents.map((agent, index) => (
+          {agentsData.map((agent, index) => (
             <div className="agent-card" key={index}>
               <div className="agent-image-container">
                 <img

@@ -1,102 +1,29 @@
-import './home.css';
-import first from './first.jpg'
-import second from './second.jpg'
-import third from './third.jpg'
-import fourth from './fourth.jpeg'
-import fifth from './fifth.jpeg'
-import sixth from './sixth.jpeg'
-import Menu from '../menu bar/menu';
-import FAQ from '../faq/faq';
-import Footer from '../footer/footer';
+import Menu from "../menu bar/menu";
+import Home_body from "./home_body/home_body";
+import FAQ from "../faq/faq";
+import Footer from "../footer/footer";
+import WorkFlow from "./work_flow/work_flow";
+import People from "./People/people";
+import Rating from "../about/rating/rating";
 
-function Home() {
-
-    return (
-        <div >
-            <Menu/>
-
-            <div className='pic1'>
-                <img src={first} alt="Home" />
-            </div>
-
-            <div className='elehome'>
-                <h10>Elevate Home</h10>
-            </div>
-
-            <div className='detail'><p>Dream House, Land area 150m sq,
-                length 100m,
-                and price Rs 2.1 M, comfortable, elegant , and
-                perfect for morden family</p>
-            </div>
-
-            <div>
-                <button className='button1'>Contact</button>
-            </div>
-
-            <div>
-                <p className="modern">
-                    <b>A modern house with elegant design, land area 150m sq,<br />
-                        length 100m.</b> Has 6 bedrooms, 3 bathrooms, and a<br />
-                    luxurious swimming pool.
-                </p>
-            </div>
-
-
+function Home(){
+    return(
         <div>
-      <h2 className="head1">Hilight Rooms</h2>
-      <div className="pic2">
-        <img src={second} alt="Living Room" className="image-large" />
-        <p className="info1">
-          The living room has an open concept with a luxury theme, measuring 8m x 6m. Designed to
-          create a spacious, elegant, and comfortable<br />
-          atmosphere.
-        </p>
-        <img src={third} alt="Minimalist Design" className="image-small" />
-        <p className="info2">Minimalist open space and elegant design.</p>
-      </div>
-      </div>
-
-                                
-                                 {/* Gallery*/}
-            
-
-            <div>
-                <h2 className="head2">
-                    Gallery
-                </h2>
+            <Menu/>
+            <Home_body/>
+            <div style={{height:"120px"}}></div>
+            <WorkFlow/>
+            <div style={{height:"120px"}}>
+            </div>
+            <People/>
+            <Rating/>
+            <div style={{height:"120px"}}>
             </div>
 
-            {/* 3 images side by side in rows*/}
-
-            <div className="imgcon">  
-                <div className="imgbox">
-                    <img src={fourth} alt="First Room" />
-                    <h3>Spacious Living Room</h3>
-                </div>
-
-                <div className="imgbox">
-                    <img src={fifth} alt="Second Room" />
-                    <h3>Elegant Bedroom</h3>
-                </div>
-
-                <div className="imgbox">
-                    <img src={sixth} alt="Third Room" />
-                    <h3>Modern Kitchen</h3>
-                </div>
-            </div>
-
-            
-     
-      <FAQ/>
-      <Footer/>
-      
-      
-
-
+            <FAQ/>
+            <Footer/>
         </div>
     )
-
-
 };
 
 export default Home;

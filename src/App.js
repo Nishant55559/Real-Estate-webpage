@@ -16,7 +16,7 @@ function App() {
     
       <div>
     
-    <Blog_page/>
+    <Home/>
         
       </div>
     

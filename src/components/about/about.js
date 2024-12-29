@@ -8,6 +8,7 @@ import Footer from '../footer/footer';
 import WhyChooseUs from './whyChooseUs/whyChooseUs';
 import TeamSection from './team/team';
 import AwardsSection from './award/award';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
 function AboutUs(){

@@ -1,9 +1,9 @@
-
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import "./blog_pb.css";
 import blogp1 from './blogp1.jpg'
 import blogp2 from './blogp2.jpg'
 
-function Blog_pagebody (){
+function Blog_pagebody () {
   return (
     <div className="layout-wrapper">
       <aside className="sidebar-section">
@@ -46,15 +46,17 @@ function Blog_pagebody (){
 
       <main className="main-content">
         <article className="article-block">
-          <h2>It is a long established fact a reader be distracted</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reiciendis, eius
-            mollitia suscipit, quisquam doloremque distinctio...
-          </p>
-          <img
-            src={blogp1}
-            alt="Furniture example"
-          />
+          <Link to="/blog-page/1"> {/* Link to a specific blog page */}
+            <h2>It is a long established fact a reader be distracted</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reiciendis, eius
+              mollitia suscipit, quisquam doloremque distinctio...
+            </p>
+            <img
+              src={blogp1}
+              alt="Furniture example"
+            />
+          </Link>
           <p>
             Molestiae cupiditate inventore animi, maxime sapiente optio... Debitis
             commodi aut, adipisci.
@@ -62,25 +64,25 @@ function Blog_pagebody (){
         </article>
 
         <article className="article-block">
-          <h2>#2. Creative WordPress Themes</h2>
-          <p>
-            Temporibus ad error suscipit exercitationem hic molestias totam...
-          </p>
-          <img
-            src={blogp2}
-            alt="Chair example"
-          />
+          <Link to="/blog-page/2"> {/* Link to another specific blog page */}
+            <h2>#2. Creative WordPress Themes</h2>
+            <p>
+              Temporibus ad error suscipit exercitationem hic molestias totam...
+            </p>
+            <img
+              src={blogp2}
+              alt="Chair example"
+            />
+          </Link>
           <p>
             Quisquam esse aliquam fuga distinctio, quidem delectus... Odit
             voluptatibus, eveniet vel nihil cum ullam dolores.<br/>
-            Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.
-            <br/>
-            Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!
+            Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur...
           </p>
         </article>
       </main>
     </div>
   );
-};
+}
 
 export default Blog_pagebody;

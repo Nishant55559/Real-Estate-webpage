@@ -5,6 +5,8 @@ import b3 from './b3.jpg';
 import b4 from './b4.jpg';
 import b5 from './b5.jpg';
 import b6 from './b6.jpg';
+import { useNavigate } from 'react-router-dom';
+
 
 export const blogs = [
   {
@@ -64,6 +66,8 @@ export const blogs = [
 ];
 
 function Blog_body({ blogsData }) {
+  const navigate = useNavigate();
+
   if (!Array.isArray(blogsData) || blogsData.length === 0) {
     return <p>No blogs available.</p>;
   }
@@ -71,7 +75,12 @@ function Blog_body({ blogsData }) {
   return (
     <div className="blog-container">
       {blogsData.map((blog) => (
-        <div key={blog.id} className="blog-card">
+        <div
+          key={blog.id}
+          className="blog-card"
+          onClick={() => navigate(`/blogs/${blog.id}`)} // Navigate to the blog page
+          style={{ cursor: 'pointer' }} // Make it look clickable
+        >
           <div className="blog-image-wrapper">
             <img src={blog.image} alt={blog.title} className="blog-image" />
           </div>

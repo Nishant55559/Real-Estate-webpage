@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import "./blog_pb.css";
-import blogp1 from './blogp1.jpg'
-import blogp2 from './blogp2.jpg'
+import blogp1 from './blogp1.jpg';
+import blogp2 from './blogp2.jpg';
 
-function Blog_pagebody () {
+function Blog_pagebody() {
   return (
     <div className="layout-wrapper">
       <aside className="sidebar-section">
@@ -46,17 +45,15 @@ function Blog_pagebody () {
 
       <main className="main-content">
         <article className="article-block">
-          <Link to="/blog-page/1"> {/* Link to a specific blog page */}
-            <h2>It is a long established fact a reader be distracted</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reiciendis, eius
-              mollitia suscipit, quisquam doloremque distinctio...
-            </p>
-            <img
-              src={blogp1}
-              alt="Furniture example"
-            />
-          </Link>
+          <h2>It is a long established fact a reader be distracted</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reiciendis, eius
+            mollitia suscipit, quisquam doloremque distinctio...
+          </p>
+          <img
+            src={blogp1}
+            alt="Furniture example"
+          />
           <p>
             Molestiae cupiditate inventore animi, maxime sapiente optio... Debitis
             commodi aut, adipisci.
@@ -64,16 +61,14 @@ function Blog_pagebody () {
         </article>
 
         <article className="article-block">
-          <Link to="/blog-page/2"> {/* Link to another specific blog page */}
-            <h2>#2. Creative WordPress Themes</h2>
-            <p>
-              Temporibus ad error suscipit exercitationem hic molestias totam...
-            </p>
-            <img
-              src={blogp2}
-              alt="Chair example"
-            />
-          </Link>
+          <h2>#2. Creative WordPress Themes</h2>
+          <p>
+            Temporibus ad error suscipit exercitationem hic molestias totam...
+          </p>
+          <img
+            src={blogp2}
+            alt="Chair example"
+          />
           <p>
             Quisquam esse aliquam fuga distinctio, quidem delectus... Odit
             voluptatibus, eveniet vel nihil cum ullam dolores.<br/>

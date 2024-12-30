@@ -71,6 +71,17 @@ const router = createBrowserRouter([
       </>
     ),
   },
+  {
+    path: "/blogs/:blogId",
+    element: (
+      <>
+        <Menu />
+        <Blog_page />
+      </>
+    ),
+    
+  },
+
   
 ]);
 

@@ -31,9 +31,7 @@ function Home_body() {
                 perfect for morden family</p>
             </div>
 
-            <div>
-                <button className='button1'>Contact</button>
-            </div>
+            
 
             <Service/>
             <div style={{ height: "120px" }}></div>

@@ -1,6 +1,6 @@
 
 import './vision.css';
-import vision from './vision.jpeg'
+import vision from './vision.jpg'
 
 function VisionMission() {
   return (

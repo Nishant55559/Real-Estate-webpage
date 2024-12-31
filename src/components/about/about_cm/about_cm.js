@@ -1,7 +1,7 @@
 
 import './about_cm.css';
-import about1 from './about1.jpeg'
-import about2 from './about2.jpeg'
+import about1 from './about1.jpg'
+import about2 from './about2.jpg'
 
 function About_cm(){
   return (

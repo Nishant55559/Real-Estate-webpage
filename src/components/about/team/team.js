@@ -1,9 +1,9 @@
 import './team.css';
 import { FaLinkedin, FaInstagram, FaTwitter } from 'react-icons/fa';
-import adam from './adam.jpeg'
-import Megamind from './𝗠𝗲𝗴𝗮𝗺𝗶𝗻𝗱.jpeg'
-import pussy from './pussy.jpeg'
-import gru from './gru.jpeg'
+import adam from './adam.jpg'
+import Megamind from './𝗠𝗲𝗴𝗮𝗺𝗶𝗻𝗱.jpg'
+import pussy from './pussy.jpg'
+import gru from './gru.jpg'
 
     function TeamSection(){
   return (

@@ -3,8 +3,8 @@
     grid-template-columns: repeat(4, 1fr); /* Exactly 4 cards per row */
     gap: 50px;
     
-    margin-left: 6cm; /* 6 cm gap from left */
-    margin-right: 6cm; /* 6 cm gap from right */
+    margin-left: 6cm; 
+    margin-right: 6cm; 
   }
   
   .agent-card {

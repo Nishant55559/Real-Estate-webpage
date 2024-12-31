@@ -1,8 +1,8 @@
 import './award.css';
-import award1 from './award1.jpeg'
+import award1 from './award1.jpg'
 import award2 from './award2.jpg'
-import award3 from './award3.jpeg'
-import award4 from './award4.jpeg'
+import award3 from './award3.jpg'
+import award4 from './award4.jpg'
 import Footer from '../../footer/footer';
 
 function AwardsSection(){

@@ -1,16 +1,16 @@
 import './agents_body.css';
-import pc14 from './pc14.jpeg';
-import pc24 from './pc24.jpeg';
-import pc34 from './pc34.jpeg';
-import pc44 from './pc44.jpeg';
-import pc54 from './pc54.jpeg';
-import pc64 from './pc64.jpeg';
-import pc74 from './pc74.jpeg';
-import pc84 from './pc84.jpeg';
-import pc94 from './pc94.jpeg';
-import pc104 from './pc104.jpeg';
-import pc114 from './pc114.jpeg';
-import pc124 from './pc124.jpeg';
+import pc14 from './pc14.jpg';
+import pc24 from './pc24.jpg';
+import pc34 from './pc34.jpg';
+import pc44 from './pc44.jpg';
+import pc54 from './pc54.jpg';
+import pc64 from './pc64.jpg';
+import pc74 from './pc74.jpg';
+import pc84 from './pc84.jpg';
+import pc94 from './pc94.jpg';
+import pc104 from './pc104.jpg';
+import pc114 from './pc114.jpg';
+import pc124 from './pc124.jpg';
 
 // Your agents data (no need to modify this if it is already correct)
 export const agents = [

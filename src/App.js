@@ -1,5 +1,5 @@
 import './App.css';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter,BrowserRouter } from 'react-router-dom';
 import Home from './components/home page/home';
 import Menu from './components/menu bar/menu';
 import ContactUs from './components/contact us/contact';
@@ -84,12 +84,6 @@ const router = createBrowserRouter([
 
   
 ]);
-
-
-
-
-
-
 
 
 function App() {

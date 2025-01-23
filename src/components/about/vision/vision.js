@@ -14,7 +14,7 @@ function VisionMission() {
           <div className="text-block">
             <h3>Vision</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper luctus, lacus ex consequat ipsum, ultricies interdum ex ante sit amet tellus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper luctus,  tellus.
             </p>
             <ul>
               <li>Phasellus rutrum</li>
@@ -26,7 +26,7 @@ function VisionMission() {
           <div className="text-block">
             <h3>Mission</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper luctus, lacus ex consequat ipsum, ultricies interdum ex ante sit amet tellus.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nibh eu ullamcorper .
             </p>
             <ul>
               <li>Phasellus rutrum</li>

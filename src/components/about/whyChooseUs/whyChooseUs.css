@@ -1,90 +1,177 @@
 .why-choose-us-container {
-    background-color: #0d0d0d; /* Dark background */
-    color: #fff;
-    padding: 50px 20px;
-    font-family: 'Serif', sans-serif;
-  }
-  
-  .content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
-  
+  background-color: #0d0d0d; /* Dark background */
+  color: #fff;
+  padding: 50px 20px;
+  font-family: 'Serif', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns by default */
+  gap: 20px;
+  flex: 1;
+}
+
+.grid-item {
+  background-color: #0d0d0d;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.grid-item h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.grid-item p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.grid-item .icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #d4af37; /* Gold */
+}
+
+.highlighted {
+  background-color: #f5e7d3; /* Light beige */
+  color: #000;
+  border: none;
+}
+
+.text-section {
+  max-width: 400px;
+  text-align: left;
+}
+
+.text-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.discover-button {
+  padding: 10px 30px;
+  background-color: #d4af37; /* Gold button */
+  color: #0d0d0d;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.discover-button:hover {
+  background-color: #b89530;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
   .grid-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    flex: 1;
+    grid-template-columns: repeat(1, 1fr); /* One column for tablets */
+    justify-items: center;
   }
-  
-  .grid-item {
-    background-color: #0d0d0d;
-    border: 1px solid #333;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    transition: all 0.3s ease;
+
+  .content {
+    flex-direction: column; /* Stack content vertically */
+    align-items: center;
   }
-  
-  .grid-item:hover {
-    transform: scale(1.05);
-  }
-  
-  .grid-item h3 {
-    font-size: 1.2rem;
-    margin: 10px 0;
-  }
-  
-  .grid-item p {
-    font-size: 0.9rem;
-    color: #ccc;
-  }
-  
-  .grid-item .icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #d4af37; /* Gold */
-  }
-  
-  .highlighted {
-    background-color: #f5e7d3; /* Light beige */
-    color: #000;
-    border: none;
-  }
-  
+
   .text-section {
-    max-width: 400px;
+    text-align: center; /* Center text for tablets */
+    max-width: 100%;
   }
-  
+
   .text-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 1.8rem; /* Adjust heading size */
   }
-  
+
   .text-section p {
-    font-size: 1rem;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 0.95rem;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .grid-section {
+    gap: 15px; /* Reduce gap between items */
+  }
+
+  .grid-item {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+
+  .grid-item h3 {
+    font-size: 1.1rem; /* Adjust font size */
+  }
+
+  .grid-item p {
+    font-size: 0.85rem;
+  }
+
+  .text-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .text-section p {
+    font-size: 0.9rem;
+  }
+
   .discover-button {
-    padding: 10px 30px;
-    background-color: #d4af37; /* Gold button */
-    color: #0d0d0d;
-    border: none;
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-section {
+    gap: 10px;
+  }
+
+  .grid-item {
+    padding: 10px;
+  }
+
+  .grid-item h3 {
     font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-left: 55px;
-    margin-bottom: 50px;
   }
-  
-  .discover-button:hover {
-    background-color: #b89530;
+
+  .grid-item p {
+    font-size: 0.8rem;
   }
-  
+
+  .text-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .text-section p {
+    font-size: 0.85rem;
+  }
+
+  .discover-button {
+    font-size: 0.8rem;
+    padding: 6px 15px;
+  }
+}

@@ -1,66 +1,134 @@
 .team-section {
-    background-color: #0a0c10;
-    color: #ffffff;
-    text-align: center;
-    padding: 50px 20px;
-  }
-  
-  .section-title {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-  
-  
+  background-color: #0a0c10;
+  color: #ffffff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Enables wrapping for smaller screens */
+}
+
+.team-card {
+  background-color: #141820;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-name {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.team-role {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: #9aa0ac;
+  margin-right: 50px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #007bff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .team-cards {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 15px; /* Reduce gap between cards on smaller screens */
   }
-  
+
   .team-card {
-    background-color: #141820;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Shrink card width for smaller screens */
+    padding: 15px;
   }
-  
+
   .team-image {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    margin-bottom: 15px;
+    width: 80px; /* Smaller profile image */
+    height: 80px;
   }
-  
+
   .team-name {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
+    font-size: 1rem; /* Adjust font size */
   }
-  
+
   .team-role {
-    font-size: 0.9rem;
-    margin-bottom: 15px;
-    color: #9aa0ac;
-    margin-right: 50px;
+    font-size: 0.85rem; /* Adjust role text size */
   }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-  }
-  
+
   .icon {
-    color: #ffffff;
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: color 0.3s;
+    font-size: 1rem; /* Smaller social media icons */
   }
-  
-  .icon:hover {
-    color: #007bff;
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem; /* Smaller title size for small screens */
   }
-  
+
+  .section-description {
+    font-size: 0.9rem; /* Adjust description font size */
+  }
+
+  .team-cards {
+    gap: 10px; /* Further reduce spacing for very small screens */
+  }
+
+  .team-card {
+    width: 180px; /* Further shrink card width */
+    padding: 10px;
+  }
+
+  .team-image {
+    width: 70px; /* Further reduce image size */
+    height: 70px;
+  }
+
+  .team-name {
+    font-size: 0.9rem; /* Smaller team name font */
+  }
+
+  .team-role {
+    font-size: 0.8rem; /* Smaller role text */
+  }
+
+  .icon {
+    font-size: 0.9rem; /* Even smaller social media icons */
+  }
+}

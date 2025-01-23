@@ -1,33 +1,72 @@
 /* Statistics Section */
 .stats-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 1rem;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+}
+
+.stat {
+  text-align: center;
+  color: #fff;
+  flex: 1 1 150px; /* Allow flexible shrinking and growing with a minimum width */
+  max-width: 200px;
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.stat h3 span {
+  font-size: 1.5rem;
+  color: #d4af37;
+  margin-left: 0.2rem;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #aaa;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .stats-section {
+    gap: 2rem;
   }
-  
-  .stat {
-    text-align: center;
-    color: #fff;
-  }
-  
+
   .stat h3 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    position: relative;
-    margin-bottom: 0.5rem;
+    font-size: 2rem;
   }
-  
+
   .stat h3 span {
-    font-size: 1.5rem;
-    color: #d4af37;
-    margin-left: 0.2rem;
+    font-size: 1.2rem;
   }
-  
+
   .stat p {
-    font-size: 1rem;
-    color: #aaa;
-    margin-right: 60px;
+    font-size: 0.9rem;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .stats-section {
+    gap: 1.5rem;
+  }
+
+  .stat h3 {
+    font-size: 1.8rem;
+  }
+
+  .stat h3 span {
+    font-size: 1rem;
+  }
+
+  .stat p {
+    font-size: 0.8rem;
+  }
+}

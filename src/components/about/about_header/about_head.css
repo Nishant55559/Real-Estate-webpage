@@ -1,33 +1,121 @@
 .header-container {
-    height: 90vh;
-    background: url('about.jpg') center center/cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    
+  height: 90vh;
+  background: url('about.jpg') center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 30px 20px;
+  border-radius: 10px;
+  height: auto; /* Automatically adjust height */
+  max-width: 600px; /* Limit the maximum width */
+  width: 70%; /* Responsive width */
+  box-sizing: border-box;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb span {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .header-container {
+    height: 80vh; /* Reduce height for tablets */
   }
-  
+
   .header-content {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-   padding-top: 90px;
-    border-radius: 10px;
-    height: 40vh;
-    width: 50vw;
+    width: 80%;
+    padding: 20px;
   }
-  
+
   .header-content h1 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem; /* Slightly smaller heading */
   }
-  
-  .breadcrumb a {
-    color: white;
-    text-decoration: none;
-  }
-  
+
+  .breadcrumb a,
   .breadcrumb span {
-    margin: 0 0.5rem;
+    font-size: 0.9rem; /* Adjust font size */
   }
-  
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    height: 70vh;
+    background-size: cover; /* Ensure background scales well */
+  }
+
+  .header-content {
+    padding: 20px;
+    height: auto;
+    width: 90%; /* Take up more width on smaller screens */
+  }
+
+  .header-content h1 {
+    font-size: 2rem; /* Smaller heading for smaller screens */
+  }
+
+  .breadcrumb {
+    flex-direction: column; /* Stack breadcrumb links vertically */
+    gap: 0.3rem;
+  }
+
+  .breadcrumb a,
+  .breadcrumb span {
+    font-size: 0.8rem; /* Reduce breadcrumb font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container {
+    height: 60vh; /* Reduce height further for mobile devices */
+  }
+
+  .header-content {
+    padding: 15px;
+    height: auto;
+    width: 95%; /* Almost full width */
+  }
+
+  .header-content h1 {
+    font-size: 1.8rem; /* Compact heading */
+  }
+
+  .breadcrumb {
+    flex-direction: column; /* Breadcrumb links stacked for small screens */
+    gap: 0.2rem;
+  }
+
+  .breadcrumb a,
+  .breadcrumb span {
+    font-size: 0.75rem; /* Smaller font for breadcrumbs */
+  }
+}
